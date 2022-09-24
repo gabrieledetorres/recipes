@@ -1,10 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     list-style:none;
+    font-family: 'DM Sans', sans-serif;
 }
 
 header{
     display: flex;
+    justify-content: space-around;
+    background-image: url('./assets/Grupo\ de\ máscara\ 2.png');
+    width:100%;
+    height:1303px;
+}
+
+.logo{
+    width:68px;
+    height:61px;
+    margin-top:81px;
+}
+
+.menuHeader{
+    display: flex;
+    margin-top:81px; 
+    width: 29em;
+    height:81px;  
+    justify-content: space-between;
+}
+
+.headerList{
+    display: flex;
+}
+
+.footerBar{
+    display: flex;
+    background-color: #F2F4F1;
+    justify-content: space-evenly;
+    width:100%;
+    height:334px;
+    align-items: center;
+}
+
+.socialBox{
+    width:676px;
+    height:57px;
+}
+
+.footerList{
+    display: flex;
+    justify-content: space-between;
+    width:346px;
+    height:30px;
+}
+
+.copyrightBox{
+    background-color:#446061 ;
+    color:white;
+    font-size:0.8rem;
+    display:flex;
+    align-items: center;
+    width:100%;
+    height:65px;
+}
+
+.socialLogo{
+    width:40px;
+    height:40px;
+}
+
+.copyrightBoxP{
+    opacity: 50%;
+    text-align: center;
+    margin-left:156px;
 }
