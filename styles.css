@@ -22,12 +22,34 @@ header{
     margin-top:81px;
 }
 
+.logoBox{
+    width:500px;
+    height:61px;
+}
+
+.title{
+    display:flex;
+    position: absolute;
+    top:644px;
+    font-size: 10rem;
+}
+
 .menuHeader{
     display: flex;
     margin-top:81px; 
     width: 29em;
     height:81px;  
     justify-content: space-between;
+}
+
+li:hover{
+    width:20%;
+    height: 35px;
+    padding:5px;
+    border:solid 2px black;
+    align-items: center;
+    align-content:center;
+    text-align:center;
 }
 
 .headerList{
