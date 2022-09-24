@@ -34,6 +34,54 @@ header{
     display: flex;
 }
 
+.container-main{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin: 3rem;
+
+}
+
+.container-img{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.children-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+img{
+    width: 100%;
+}
+
+.container-colher{
+    display:flex;
+    margin: 6rem;
+    text-align: justify;
+}
+
+
+
+.container-about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 5rem;
+}
+
+.img-colher{
+    width: 30%;
+    border-radius: 50%;
+    
+}
+
 .footerBar{
     display: flex;
     background-color: #F2F4F1;
