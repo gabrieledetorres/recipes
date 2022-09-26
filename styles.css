@@ -104,6 +104,21 @@ img{
     
 }
 
+.formulario{
+    margin: 5px;
+}
+
+button{
+    border-style: none;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 3px 3px;
+    background-color: #373737;
+    color: whitesmoke;
+}
+
+
+
 .footerBar{
     display: flex;
     background-color: #F2F4F1;
